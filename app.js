@@ -8,7 +8,7 @@ const os = require('os');
 
 //console.log('require(os).hostname() = ', os.hostname());
 
-const hostname = '127.0.0.1'; // os.hostname();  // '0.0.0.0';   //localhost
+const hostname = 'localhost'; // os.hostname();  // '0.0.0.0';   //localhost
 var port = 80;
 if (process.env.PORT) port = process.env.PORT;
 const baseDir = __dirname + "/";
