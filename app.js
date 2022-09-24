@@ -6,8 +6,8 @@ const jsdom = require("jsdom");
 const pathmodule = require('path');
 
 
-const hostname = 'localhost';   //localhost
-const port = 3000;
+const hostname = '0.0.0.0';   //localhost
+const port = 80;
 const baseDir = __dirname + "/";
 const debug = false;
 
