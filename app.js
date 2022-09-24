@@ -8,7 +8,7 @@ const pathmodule = require('path');
 
 const hostname = '0.0.0.0';   //localhost
 var port = 80;
-if (process.env.PORT) port = process.env.PORT 
+if (process.env.PORT) port = process.env.PORT;
 const baseDir = __dirname + "/";
 const debug = false;
 
