@@ -4,7 +4,6 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 const jsdom = require("jsdom");
 const pathmodule = require('path');
-const os = require('os');
 
 
 //const hostname = 'localhost'; // os.hostname();  // '0.0.0.0';   //localhost
